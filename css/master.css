@@ -1,6 +1,416 @@
-body
-{
+body {
   width: 1024px;
   height: 768px;
-  background: red;
-}
+  background: red; }
+
+#wrapper {
+  background-color: yellow;
+  width: 1024px;
+  height: 768px;
+  display: block;
+  position: relative; }
+
+#banner {
+  background-color: #b92726;
+  height: 14px;
+  width: 200px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: -63px;
+  padding: 3px 0 18px;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+  #banner p {
+    padding: 10px 0 5px;
+    text-transform: uppercase;
+    display: block;
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    text-align: center;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    line-height: 110%; }
+
+header {
+  width: 100%;
+  height: 155px;
+  display: block; }
+  header h2 {
+    font-size: 80px;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+    padding-top: 47px;
+    position: relative;
+    width: 365px;
+    margin: 0 auto; }
+    header h2 em {
+      margin: 0 auto;
+      position: relative;
+      font-style: normal;
+      z-index: 300; }
+    header h2 div {
+      background-color: #b92726;
+      width: 45px;
+      height: 45px;
+      display: block;
+      -moz-box-shadow: 0 0 90px red;
+      -webkit-box-shadow: 0 0 90px red;
+      box-shadow: 0 0 90px red;
+      -moz-border-radius: 100px;
+      -webkit-border-radius: 100px;
+      border-radius: 100px;
+      position: absolute; }
+      header h2 div:before {
+        background-color: #b92726;
+        width: 45px;
+        height: 45px;
+        display: block;
+        -moz-box-shadow: 0 0 90px red;
+        -webkit-box-shadow: 0 0 90px red;
+        box-shadow: 0 0 90px red;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        position: absolute;
+        content: ""; }
+      header h2 div:after {
+        background-color: #b92726;
+        width: 45px;
+        height: 45px;
+        display: block;
+        -moz-box-shadow: 0 0 90px red;
+        -webkit-box-shadow: 0 0 90px red;
+        box-shadow: 0 0 90px red;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        position: absolute;
+        content: ""; }
+      header h2 div:first-of-type {
+        left: -19px;
+        top: 66px; }
+      header h2 div:last-of-type {
+        right: -30px;
+        top: 66px; }
+    header h2 .star {
+      width: 0px;
+      height: 0px;
+      display: block;
+      border: 70px solid transparent;
+      border-top: 50px solid white;
+      position: absolute;
+      z-index: 200; }
+      header h2 .star:before {
+        content: "";
+        -moz-transform: rotate(-69deg);
+        -webkit-transform: rotate(-69deg);
+        transform: rotate(-69deg);
+        width: 0px;
+        height: 0px;
+        display: block;
+        border: 70px solid transparent;
+        border-top: 50px solid white;
+        position: absolute;
+        top: -70px;
+        left: -39px; }
+      header h2 .star:after {
+        content: "";
+        -moz-transform: rotate(69deg);
+        -webkit-transform: rotate(69deg);
+        transform: rotate(69deg);
+        width: 0px;
+        height: 0px;
+        display: block;
+        border: 70px solid transparent;
+        border-top: 50px solid white;
+        position: absolute;
+        top: -70px;
+        right: -39px; }
+      header h2 .star:first-of-type {
+        left: -90px;
+        top: 47px;
+        -moz-transform: rotate(55deg) scale(0.8);
+        -webkit-transform: rotate(55deg) scale(0.8);
+        transform: rotate(55deg) scale(0.8); }
+      header h2 .star:last-of-type {
+        right: -100px;
+        top: 50px;
+        -moz-transform: rotate(-44deg) scale(0.8);
+        -webkit-transform: rotate(-44deg) scale(0.8);
+        transform: rotate(-44deg) scale(0.8); }
+  header #foursquare {
+    width: 64px;
+    height: 64px;
+    display: block;
+    position: relative;
+    float: right;
+    margin: -90px 114px 0 0; }
+    header #foursquare span {
+      width: 28px;
+      height: 28px;
+      display: block;
+      position: absolute; }
+      header #foursquare span:nth-child(1) {
+        background-color: rgba(255, 0, 0, 0.7);
+        top: 0;
+        left: 30%;
+        z-index: 300; }
+      header #foursquare span:nth-child(2) {
+        background-color: rgba(47, 125, 133, 0.9);
+        top: 30%;
+        right: 0; }
+      header #foursquare span:nth-child(3) {
+        background-color: rgba(79, 81, 105, 0.9);
+        bottom: 0;
+        left: 30%;
+        z-index: 300; }
+      header #foursquare span:nth-child(4) {
+        background-color: rgba(89, 179, 54, 0.8);
+        top: 30%;
+        left: 0; }
+
+section {
+  height: 477px;
+  width: 100%;
+  display: block; }
+  section div {
+    display: inline-block;
+    margin-left: 53px;
+    -moz-box-shadow: 5px 5px 8px #474747;
+    -webkit-box-shadow: 5px 5px 8px #474747;
+    box-shadow: 5px 5px 8px #474747;
+    position: relative;
+    background-image: url("../images/example.jpg");
+    width: 400px;
+    height: 477px;
+    text-indent: -9999px; }
+    section div:before {
+      content: "HEY MISTER EAGLE";
+      font-family: league gothic, helvetica, arial, sans-serif;
+      font-weight: 900;
+      font-size: 55px;
+      letter-spacing: 2.2px;
+      color: white;
+      text-shadow: -2px -2px 0 black, -1px 1px 0 black, 2px 2px 0 black, 1px 1px 0 black, -2px 2px black, 2px -2px black, 1px -1px black, -1px 1px black;
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      text-indent: 0;
+      -moz-transform: scale(1, 0.9);
+      -webkit-transform: scale(1, 0.9);
+      transform: scale(1, 0.9); }
+    section div:after {
+      content: "I CAN FLY TOO!";
+      font-family: league gothic, helvetica, arial, sans-serif;
+      font-weight: 900;
+      font-size: 55px;
+      letter-spacing: 2px;
+      color: white;
+      text-shadow: -2px -2px 0 black, -1px 1px 0 black, 2px 2px 0 black, 1px 1px 0 black, -2px 2px black, 2px -2px black, 1px -1px black, -1px 1px black;
+      position: absolute;
+      bottom: 20px;
+      left: 70px;
+      text-indent: 0;
+      -moz-transform: scale(1, 0.9);
+      -webkit-transform: scale(1, 0.9);
+      transform: scale(1, 0.9); }
+  section p {
+    width: 488px;
+    display: inline-block;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 140%;
+    margin-left: 30px;
+    vertical-align: top; }
+    section p strong:nth-of-type(n+2):nth-of-type(-n+3) {
+      font-style: italic; }
+
+footer {
+  margin: 19px auto;
+  width: 910px;
+  background-color: white;
+  display: block;
+  position: relative; }
+  footer table:first-of-type {
+    height: 90px !important; }
+  footer table:nth-of-type(2) {
+    height: 40px;
+    position: absolute;
+    left: 348px;
+    top: 17px; }
+    footer table:nth-of-type(2):before {
+      content: "CSS TETRIS";
+      font-family: helvetica, arial, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 15px;
+      letter-spacing: 1px;
+      -moz-transform: rotate(-10deg);
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+      color: rgba(0, 0, 0, 0.7);
+      width: 200px;
+      position: absolute;
+      margin-top: 14px;
+      margin-left: 40px; }
+  footer table td {
+    width: 9px !important;
+    height: 9px !important; }
+  footer table .red {
+    background-color: #c1272d; }
+  footer table .blue {
+    background-color: blue; }
+  footer table .pink {
+    background-color: fuchsia; }
+  footer table .green {
+    background-color: #009245; }
+  footer table .brown {
+    background-color: #534741; }
+  footer table .yellow {
+    background-color: #fbb03b; }
+  footer #person {
+    float: right;
+    position: relative;
+    margin-top: -110px;
+    margin-right: -15px;
+    width: 225px;
+    height: 115px;
+    display: block; }
+    footer #person #head {
+      width: 53px;
+      height: 42px;
+      display: block;
+      -moz-border-radius: 100px 100px 100px 100px/70px 80px 70px 80px;
+      -webkit-border-radius: 100px 100px 100px 100px/70px 80px 70px 80px;
+      border-radius: 100px 100px 100px 100px/70px 80px 70px 80px;
+      background-color: #ed1c24;
+      position: absolute;
+      top: 36px; }
+      footer #person #head:after {
+        height: 20px;
+        width: 30px;
+        display: block;
+        background-color: #ed1c24;
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 40px; }
+    footer #person #arms {
+      width: 17px;
+      height: 113px;
+      display: block;
+      position: absolute;
+      top: 1px;
+      left: 64px;
+      background-color: #ed1c24;
+      -moz-border-topleft-radius: 6px;
+      -moz-border-bottomleft-radius: 6px;
+      -webkit-border-top-left-radius: 6px;
+      -webkit-border-bottom-left-radius: 6px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px; }
+      footer #person #arms:before, footer #person #arms:after {
+        width: 40px;
+        height: 22px;
+        display: block;
+        background-color: #ed1c24;
+        position: absolute;
+        left: 16px;
+        content: "";
+        -moz-border-topright-radius: 6px;
+        -moz-border-bottomright-radius: 6px;
+        -webkit-border-top-right-radius: 6px;
+        -webkit-border-bottom-right-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px; }
+      footer #person #arms:before {
+        top: 0; }
+      footer #person #arms:after {
+        bottom: 0; }
+    footer #person #body {
+      height: 58px;
+      width: 75px;
+      display: block;
+      background-color: #ed1c24;
+      position: absolute;
+      top: 28px;
+      left: 75px; }
+      footer #person #body:before {
+        content: "CSS 3";
+        font-family: helvetica, arial, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 500;
+        color: white;
+        position: absolute;
+        top: 25px;
+        left: 15px;
+        -moz-transform: rotate(-25deg);
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg); }
+    footer #person #legs {
+      height: 21px;
+      width: 77px;
+      display: block;
+      background-color: #ed1c24;
+      position: absolute;
+      top: 28px;
+      left: 148px;
+      -moz-topright-radius: 6px;
+      -moz-bottomrignt-radius: 6px;
+      -webkit-border-top-right-radius: 6px;
+      -webkit-border-bottom-right-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px; }
+      footer #person #legs:after {
+        height: 21px;
+        width: 77px;
+        display: block;
+        background-color: #ed1c24;
+        position: absolute;
+        top: 37px;
+        -moz-border-topright-radius: 6px;
+        -moz-border-bottomright-radius: 6px;
+        -webkit-border-top-right-radius: 6px;
+        -webkit-border-bottom-right-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        content: ""; }
+    footer #person #shots {
+      width: 10px;
+      height: 10px;
+      background-color: white;
+      position: absolute;
+      top: 54px;
+      left: 75px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px; }
+      footer #person #shots:before {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        position: absolute;
+        top: -12px;
+        left: 18px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        content: ""; }
+      footer #person #shots:after {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        position: absolute;
+        top: 10px;
+        left: 46px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        content: ""; }

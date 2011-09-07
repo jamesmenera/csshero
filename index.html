@@ -1,23 +1,191 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>CSS Hero</title>
-<link rel="stylesheet" href="css/master.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen">
 </head>
 <body>
   <img src="images/css-hero.png" id="reference" style="display:none;position:absolute;top:0px;left:0px">
-  <p>Press shift for reference image.</p> 
+<!--   <p>Press shift for reference image.</p> -->
+  
+  <div id="wrapper">
+    <div id="banner">
+        <p>Now in Beta</p>
+    </div>
+    <header>
+        <h2>
+            <div></div>
+            <span class="star"></span>
+            <em>
+                    CSS Hero
+            </em>
+            <span class="star"></span>
+            <div></div>
+        </h2>
+        
+        <div id="foursquare">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <section>
+        <div>Hey Mister Eagle. I can fly too!</div>
+        <p>Aliquam erat volupat. Nunc tincidunt tincidunt nibh. Integer laoreet lacus ut urna lacinia venenatis. Quisque nec enim in purus placent vivierra ut ut nulla. Integer rutrum pellentesque velit, nec vestibulum nisl ullamcorper at. Suspendisse congue iaculis libero, sit amet scelerisque urna volutpat non. Sed convallis consequat justo sit amet male-suada.<br/><br/>Vivamus blandit, fleis id <em>tempor dignissim</em>, dui nisl luctus orci, et molestie ipsum nunc vel purus. Mauris nulla mauris, mollis id sccumsan nec, varius nec lectus. In sit amet dolor nisl. <strong>Donnec id arcu risus.</strong> Nullam metus purus, mattis quis aliquet ac, molestie et nibh. Donec dignissim ullacorper felis, sed rhoncus turpis egestas sed. Cras luctus mollis lobortis.<br/><br/>Nothing flies faster than an <strong>eagle</strong>, unless it's an eagle being chased by a <strong>cat.</strong></p>
+    </section>
+    <footer>
+        <table>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4" class="red"></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+                <td colspan="2" class="blue"></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="red"></td>
+                <td colspan="2" class="blue"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="pink"></td>
+                <td colspan="3" class="green"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" class="pink"></td>
+                <td class="brown"></td>
+                <td class="green"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="yellow"></td>
+                <td colspan="3" class="brown"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="yellow"></td>
+                <td class="green"></td>
+                <td colspan="2" class="blue"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="brown"></td>
+                <td class="yellow"></td>
+                <td class="green"></td>
+                <td colspan="2" class="blue"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="brown"></td>
+                <td colspan="2" class="green"></td>
+                <td colspan="2" class="yellow"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="brown"></td>
+                <td colspan="2" class="yellow"></td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+                <td class="red"></td>
+                <td colspan="9"></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="brown"></td>
+                <td colspan="3"></td>
+                <td class="pink"></td>
+                <td></td>
+                <td class="red"></td>
+                <td></td>
+                <td class="yellow"></td>
+                <td colspan="3"></td>
+                <td class="green"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="blue"></td>
+                <td></td>
+                <td class="brown"></td>
+                <td colspan="2"></td>
+                <td colspan="2" class="pink"></td>
+                <td></td>
+                <td class="red"></td>
+                <td></td>
+                <td colspan="2" class="yellow"></td>
+                <td colspan="2"></td>
+                <td class="green"></td>
+                <td></td>
+                <td colspan="2" class="blue"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="blue"></td>
+                <td></td>
+                <td colspan="2" class="brown"></td>
+                <td></td>
+                <td class="pink"></td>
+                <td colspan="2"></td>
+                <td class="red"></td>
+                <td colspan="2"></td>
+                <td class="yellow"></td>
+                <td></td>
+                <td colspan="2" class="green"></td>
+                <td></td>
+                <td colspan="2" class="blue"></td>
+            </tr>
+        </table>
+        
+        <div id="person">
+            <span id="head"></span>
+            <span id="body"></span>
+            <span id="arms"></span>
+            <span id="legs"></span>
+            <span id="shots"></span>
+        </div>
+        
+    </footer>
+  </div>
 </body>
-<script src="js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
 <script>
 window.onkeydown = function(ev)
 {
   if (ev.keyCode == 16)
-    $('#reference').show();
+    $('#reference').hide();
 }
 window.onkeyup = function(ev)
 {
   if (ev.keyCode == 16)
-    $('#reference').hide();
+    $('#reference').show();
 }
 </script>
 </html>
